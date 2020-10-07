@@ -12,7 +12,9 @@
   grid-template-rows: 10%,10%,10%,10%,10%,;
 }
 {
-#figure
+figure1
 grid-column-start: 1
 grid-column-end: 3
+grid-rows-start: 3
+grid-rows-end: 5
 }
