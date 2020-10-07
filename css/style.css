@@ -1,106 +1,18 @@
 /*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
-body {
-  color: #444;
-  font-size: 16px;
-  font-family: 'Gentium Book Basic', serif;
-}
-p {
-  margin-bottom: .67em;
-}
-body {
-  background-color: #CCCCCC;
-}
-nav, footer {
-  background-color: #4E598C;
-}
-footer {
-  text-align: center;
-  padding: 1em 0 .3em 0;
-  color: #FF8C42;
-}
-/*-- Main Menu Styles--*/
-nav ul {
-  text-align: center;
-  justify-content: space-between;
-  list-style: none;
-  padding: 1em;
-}
-nav a:link, nav a:visited {
-  color: #FFFFFF;
-  text-decoration: none;
-}
-nav a:hover, nav a:active  {
-  color: #F0F0F0;
-  text-decoration: underline;
-}
-nav a.active {
-  color: #F0F0F0;
-}
-/*-- Hero Unit Styles--*/
-header {
-  text-align: center;
-  width: 510px;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  margin-left: auto;
-  margin-right: auto;
-}
-header img {
-  width: 100%;
-  margin: auto;
-}
-header h1 {
-  margin: 0 auto;
-  padding: 0 auto;
-  font-family: Lato, sans-serif;
-  font-weight: 900;
-}
-.small {
-  margin-top: 1em;
-}
-/*-- Article Styles--*/
-article {
-  width: 800px;
-  font-size: 18px;
-  line-height: 1.3;
-  margin-left: auto;
-  margin-right: auto;
-}
-article figure {
-  width: 39%;
-  float: right;
-  margin-left: auto;
-}
-article figcaption {
-  width: 500px;
-  font-size: 10px;
-  line-height: 1;
-  margin-left: auto;
-  margin-right: auto;
 
-}
-.pagination {
-  margin-top: 2em;
-  margin-bottom: 2em;
-  width: 96%;
-}
-a.button {
-  border: 1px solid #888;
-  padding: .4em 1em .4em 1em;
-  text-decoration: none;
-  color: #888;
-  border-radius: 200px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 80%;
-}
-a.button:hover, a.button:active {
-  border: 1px solid #444;
-  text-decoration: none;
-  color: #F9C784;
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
   header {width: 96%;}
   article {width: 96%;}
+}
+{
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+{
+#figure
+grid-column-start: 4
+grid-column-end: 5
 }
