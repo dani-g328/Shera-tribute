@@ -1,6 +1,29 @@
 /*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
-
-
+header {
+  color: #180911
+  font-size: 40px
+  Font-family: 'Times New Roman'
+}
+body {
+  color: #311222
+  Font-size: 25px
+  Font-family: 'times new roman'
+}
+p{
+  margin-left: auto;
+  margin-bottom: .55em;
+}
+body {
+  background-color: #F3DEE9
+}
+nav, footer {
+  background-color: #E1ADC8
+}
+footer {
+  text-align: center;
+  justify-content: flex-start;
+  padding: 1em
+}
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
   header {width: 96%;}
