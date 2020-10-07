@@ -1,7 +1,48 @@
 /*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
 body {
-  background-color: #F3DEE9
-  
+  color:
+  font-size: 16px
+  font-family: 'Gentium book basic'
+}
+p {
+  margin-bottom: .1em
+}
+body {
+  background-color:
+}
+nav, footer {
+  background-color
+}
+footer {
+  text-align: center;
+  padding: .5em 0 .2em 0;
+  color:
+}
+header {
+  text-align: center
+  width: 300px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+header img {
+  width: 500px
+  margin: auto;
+}
+header h1 {
+  margin: 0 auto;
+  padding: 0 auto;
+  font-family: Lato, sans-serif;
+  font-weight: 900;
+}
+article {
+  width: 300px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.3;
+  margin-left: .1em
+}
 }
 /*-- changes header and article width on small screens --*/
 @media screen and (max-width: 768px) {
