@@ -19,6 +19,11 @@ body {
 .characters {
 
 }
+.char-wrap2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .char-wrap {
   display: grid;
   grid-template-columns: 1fr 3fr;
