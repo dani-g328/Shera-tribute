@@ -14,15 +14,16 @@ body {
   background-color:
 }
 .splash {
-
+  text-align: center;
+  width: 400px;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  margin-top: auto;
+  margin-bottom: auto;
 }
-.characters {
-
-}
-.char-wrap2 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.charwrap2 {
+  display: grid;
+  grid-template-rows: 1fr 4fr;
 }
 .char-wrap {
   display: grid;
