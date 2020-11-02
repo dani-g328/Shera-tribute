@@ -1,31 +1,69 @@
 /*--Remember the cascade: Later styles override earlier ones and more specific styles override more general ones.--*/
 body {
-  color:
-  font-size: 16px
-  font-family: 'Gentium book basic'
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+  width: 92%;
+  margin: 0 auto;
+  background-color: lightgrey;
 }
 img {
   width: 100%;
 }
-p {
-  margin-bottom: .1em
+nav {
+  background-color: black;
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.2em;
+  font-weight: 600;
 }
-body {
-  background-color:
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  color: lightgrey;
+}
+h1 {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 2em;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+.splash h1 {
+  border-top: 0;
+  border-bottom: 0;
+}
+h2 {
+  font-size: 1.4em;
+  font-weight: 600;
+  line-height: 1.2;
+}
+p {
+  margin-bottom: .1em;
+}
+.char-txt {
+  padding: 1em;
 }
 .splash {
   text-align: center;
-  width: 400px;
   margin-top: .5em;
   margin-bottom: .5em;
-  margin-top: auto;
-  margin-bottom: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.splash img {
+
 }
 .charwrap2 {
   display: grid;
-  grid-template-rows: 1fr 4fr;
+  grid-template-rows: 1fr 3fr;
 }
 .char-wrap {
+  margin: 2em 0;
   display: grid;
   grid-template-columns: 1fr 3fr;
 }
